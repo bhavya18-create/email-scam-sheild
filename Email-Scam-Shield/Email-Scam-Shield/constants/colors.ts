@@ -1,0 +1,42 @@
+const CYBER = {
+  background: "#0F172A",
+  surface: "#1E293B",
+  surfaceElevated: "#263348",
+  border: "#1E3A5F",
+  cyan: "#22D3EE",
+  cyanDim: "#0E7490",
+  blue: "#3B82F6",
+  blueDim: "#1D4ED8",
+  purple: "#A855F7",
+  purpleDim: "#7E22CE",
+  green: "#22C55E",
+  greenDim: "#15803D",
+  red: "#EF4444",
+  redDim: "#991B1B",
+  yellow: "#EAB308",
+  yellowDim: "#854D0E",
+  text: "#F1F5F9",
+  textSecondary: "#94A3B8",
+  textDim: "#475569",
+  glow: "rgba(34,211,238,0.15)",
+  glowBlue: "rgba(59,130,246,0.15)",
+  glowPurple: "rgba(168,85,247,0.15)",
+};
+
+export default {
+  light: {
+    text: CYBER.text,
+    background: CYBER.background,
+    tint: CYBER.cyan,
+    tabIconDefault: CYBER.textDim,
+    tabIconSelected: CYBER.cyan,
+  },
+  dark: {
+    text: CYBER.text,
+    background: CYBER.background,
+    tint: CYBER.cyan,
+    tabIconDefault: CYBER.textDim,
+    tabIconSelected: CYBER.cyan,
+  },
+  CYBER,
+};
